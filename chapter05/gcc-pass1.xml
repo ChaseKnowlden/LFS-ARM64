@@ -62,24 +62,20 @@ mv -v gmp-&gmp-version; gmp
 tar -xf ../mpc-&mpc-version;.tar.xz
 mv -v mpc-&mpc-version; mpc</userinput></screen>
 
-    <para>On x86_64 hosts, set the default directory name for
+    <para>On ARM64 hosts, set the default directory name for
     64-bit libraries to <quote>lib</quote>:</para>
 
-<screen><userinput remap="pre">case $(uname -m) in
-  x86_64)
-    sed -e '/m64=/s/lib64/lib/' \
-        -i.orig gcc/config/i386/t-linux64
- ;;
-esac</userinput></screen>
+<screen><userinput remap="pre">sed -e '/lp64=/s/lib64/lib/' \
+    -i.orig gcc/config/aarch64/t-aarch64-linux</userinput></screen>
 
     <note>
       <para>
         This example demonstrates the use of the
         <parameter>-i.orig</parameter> switch.  It makes the
-        <command>sed</command> copy the <filename>t-linux64</filename> file
-        to <filename>t-linux64.orig</filename>, and then edit the original
-        <filename>t-linux64</filename> file inplace.  So you may run
-        <command>diff -u gcc/config/i386/t-linux64{.orig,}</command>
+        <command>sed</command> copy the <filename>t-aarch64-linux</filename> file
+        to <filename>t-aarch64-linux.orig</filename>, and then edit the original
+        <filename>t-aarch64-linux</filename> file inplace.  So you may run
+        <command>diff -u gcc/config/aarch64/t-aarch64-linux{.orig,}</command>
         to visualize the change done by the <command>sed</command> command
         afterwards.  We'll simply use <parameter>-i</parameter> (which just
         edits the original file inplace without copying it) for all other
