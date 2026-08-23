@@ -6,7 +6,7 @@
 ]>
 
 <bookinfo>
-  <title>Linux From Scratch</title>
+  <title>ARM64 Linux From Scratch</title>
   <subtitle>Version &version;</subtitle>
   <subtitle>Published &releasedate;</subtitle>
 
@@ -16,18 +16,8 @@
       <surname>Beekmans</surname>
     </author>
     <author>
-      <firstname>Managing Editor: Bruce</firstname>
-      <surname>Dubbs</surname>
-    </author>
-
-    <author revision="systemd">
-      <firstname>Editor: Douglas R.</firstname>
-      <surname>Reno</surname>
-    </author>
-
-    <author revision="systemd">
-      <firstname>Editor: DJ</firstname>
-      <surname>Lucas</surname>
+      <firstname>Managing Editor: Chase</firstname>
+      <surname>Knows</surname>
     </author>
   </authorgroup>
 
