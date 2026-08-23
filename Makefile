@@ -49,6 +49,7 @@ book: validate profile-html
 
 	$(Q)mkdir -p $(BASEDIR)/images
 	$(Q)cp images/*.png $(BASEDIR)/images
+	$(Q)mkdir -p $(BASEDIR)/files
 	$(Q)cp files/* $(BASEDIR)/files
 
 	@echo "Running Tidy and obfuscate.sh..."
