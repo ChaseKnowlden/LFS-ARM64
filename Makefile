@@ -41,7 +41,7 @@ book: validate profile-html
       stylesheets/lfs-chunked.xsl                \
       $(RENDERTMP)/lfs-html.xml
 
-	@echo "Copying CSS code and images..."
+	@echo "Copying CSS code, files and images..."
 	$(Q)mkdir -p $(BASEDIR)/stylesheets
 	$(Q)cp stylesheets/lfs-xsl/*.css $(BASEDIR)/stylesheets
 	$(Q)sed -e 's|../stylesheet|stylesheet|' \
@@ -49,6 +49,7 @@ book: validate profile-html
 
 	$(Q)mkdir -p $(BASEDIR)/images
 	$(Q)cp images/*.png $(BASEDIR)/images
+	$(Q)cp files/* $(BASEDIR)/files
 
 	@echo "Running Tidy and obfuscate.sh..."
 	$(Q)for filename in `find $(BASEDIR) -name "*.html"`; do \
