@@ -65,3 +65,10 @@
 <!ENTITY tar-aclfix-patch-md5 "dbab49e317105539611866dac5dd54f6">
 <!ENTITY tar-aclfix-patch-size "4.3 KB">
 
+<!ENTITY config-guess-patch "config.guess">
+<!ENTITY config-guess-patch-md5 "31425d9ff4907ea0de54624aab92336c">
+<!ENTITY config-guess-patch-size "50 KB">
+
+<!ENTITY config-sub-patch "config.sub">
+<!ENTITY config-sub-patch-md5 "23ba3212d56076a3b020b2ff4c3223e5">
+<!ENTITY config-sub-patch-size "39 KB">
