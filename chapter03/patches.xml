@@ -159,14 +159,14 @@
     <varlistentry>
       <term>config.guess - <token>&config-guess-patch-size;</token>:</term>
       <listitem>
-	      <para>Download: <ulink url="../files/&config-guess-patch;"/></para>
+	      <para>Download: <ulink url="&files;&config-guess-patch;"/></para>
         <para>MD5 sum: <literal>&config-guess-patch-md5;</literal></para>
       </listitem>
     </varlistentry>
     <varlistentry>
       <term>config.sub - <token>&config-sub-patch-size;</token>:</term>
       <listitem>
-	      <para>Download: <ulink url="../files/&config-sub-patch;"/></para>
+	      <para>Download: <ulink url="&files;&config-sub-patch;"/></para>
         <para>MD5 sum: <literal>&config-sub-patch-md5;</literal></para>
       </listitem>
     </varlistentry>
