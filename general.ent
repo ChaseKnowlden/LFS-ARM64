@@ -130,7 +130,7 @@
 <!ENTITY pypi-home       "https://pypi.org/project">
 <!ENTITY pypi-src        "https://pypi.org/packages/source">
 <!ENTITY man             "https://man.archlinux.org/man/">
-<!ENTITY files           "https://chaseknowlden.github.io/LFS-ARM64/files/">
+<!ENTITY files           "https://lfsarm64files.web.app/">
 
 <!ENTITY root            "<systemitem class='username'>root</systemitem>">
 <!ENTITY lfs-user        "<systemitem class='username'>lfs</systemitem>">
